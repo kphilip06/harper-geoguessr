@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "test",
+    "image": "Assets/Panorama/equirectangular-test-01.jpg",
+    "lat": 42.080223,
+    "lng": -88.071388
+  },
+  {
+    "id": 2,
+    "name": "test-02",
+    "image": "Assets/Panorama/test-02.webp",
+    "lat": 42.080225,
+    "lng": -88.076084
+  },
+   {
+    "id": 3,
+    "name": "test-03",
+    "image": "Assets/Panorama/test-03.webp",
+    "lat": 42.08108612118313,
+    "lng": -88.07175437100089
+  },
+  {
+    "id": 4,
+    "name": "Rotunda",
+    "image": "Assets/Panorama/Rotunda.jpg",
+    "lat": 42.081493,
+    "lng": -88.070844
+}
+]

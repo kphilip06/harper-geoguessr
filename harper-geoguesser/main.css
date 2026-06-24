@@ -1,0 +1,52 @@
+   body, html { 
+          margin: 0; 
+          padding: 0; 
+          width: 100%; 
+          height: 100%; 
+          overflow: hidden; 
+          font-family: Arial, sans-serif; 
+        }
+        #panorama { 
+          width: 100%; 
+          height: 100%; 
+          position: absolute; 
+          top: 0; 
+          left: 0; 
+        }
+        #map-container { 
+          position: absolute; 
+          bottom: 20px;
+          right: 20px;
+          width: 350px; 
+          height: 300px; 
+          z-index: 1000; 
+          border: 3px solid white; 
+          border-radius: 8px; 
+          box-shadow: 0 4px 10px rgba(0,0,0,0.5); 
+          transition: width 0.3s, height 0.3s; 
+          display: block; 
+        }
+        #map-container:hover { /* Expands when hovering to guess */
+          width: 500px; 
+          height: 400px; 
+        } 
+        #map { 
+          width: 100%; 
+          height: 100%; 
+        }
+        #submit-btn { 
+          position: absolute; 
+          bottom: 25px; 
+          right: 10px; 
+          z-index: 1000; 
+          padding: 10px 20px; 
+          background: #3809a5; 
+          color: rgb(253, 253, 253); 
+          border: none; 
+          border-radius: 5px; 
+          font-weight: bold; 
+          cursor: pointer; 
+        }
+        .hidden { 
+          display: none !important; 
+        }
